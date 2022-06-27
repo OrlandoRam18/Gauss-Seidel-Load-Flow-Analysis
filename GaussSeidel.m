@@ -1,9 +1,9 @@
 %% Gauss Seidel Load Flow analysis
 clear all; close all; clc
-ch = input('Enter the IEEE power system to analyze.: (5, 6 or 9): '); % choose between 5, 6 or 9
-while ch ~= 5 && ch ~= 6 && ch ~= 9
+ch = input('Enter the IEEE power system to analyze.: (5, 6 , 9 or 14) bus test case: '); % choose between 5, 6 , 9 or 14 bus test case
+while ch ~= 5 && ch ~= 6 && ch ~= 9 && ch ~= 14
     fprintf('Invalid Input, try again\n');
-    ch = input('Enter the IEEE system to analyze.: (5, 6 or 9): ');
+    ch = input('Enter the IEEE system to analyze.: (5, 6 , 9 or 14) bus test case: ');
 end
 switch ch
     case 5
@@ -12,6 +12,8 @@ switch ch
         data6; disp('IEEE 6 bus system')
     case 9
         data9; disp('IEEE 9 bus system')
+    case 14
+        data14; disp('IEEE 14 bus system')
 end
 % Data of the power system is stored in the bus and line matrix of the
 % following file
