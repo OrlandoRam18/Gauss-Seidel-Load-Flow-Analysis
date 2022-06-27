@@ -1,0 +1,7 @@
+To perform the Gauss Seidel solution, run GaussSeidel.m
+The files data5.m , data6.m and data9.m have the information of the 
+topology and generation of the power systems.
+Y_admi is a function which computhes the admittance matrix.
+
+The following assumption is made:
+Bus 1 is considered as the slack bus
