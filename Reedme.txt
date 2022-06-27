@@ -1,5 +1,5 @@
 To perform the Gauss Seidel solution, run GaussSeidel.m
-The files data5.m , data6.m and data9.m have the information of the 
+The files data5.m , data6.m , data9.m and data14.m have the information of the 
 topology and generation of the power systems.
 Y_admi is a function which computhes the admittance matrix.
 
